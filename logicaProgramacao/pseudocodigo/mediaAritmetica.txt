@@ -1,0 +1,21 @@
+/*
+Algoritmo que lê dois numeros e mostra a média aritimetrica
+Data:31/05/23
+Feito por:Yuri
+*/
+Programa MediaAritimetricaDe2Numeros
+início
+inteiro:n1,n2
+real:media
+escreva("Digite um numero inteiro:");
+leia(n1);
+escreva("Digite outro numero inteiro:");
+leia(n2)
+media<-(n1+n2)/2;
+escreva("A media de");
+escreva(n1);
+escreva("e");
+escreva(n2);
+escreva("eh igual ah:")
+escreva(media)
+fim.

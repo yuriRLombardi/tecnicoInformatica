@@ -1,0 +1,8 @@
+Início
+ Var n1,n2,res=NUM
+ ESCREVA("informe dois numéros para a soma")
+ var_n1= 4
+ var_n2= 6
+ res= n1+n2
+ ESCREVA("A soma de dois numéros é:",res)
+ 

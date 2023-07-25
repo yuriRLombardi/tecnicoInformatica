@@ -1,0 +1,15 @@
+Início
+ VAR n1,n2=NUM
+ 
+ LEIA (n1)
+ LEIA (n2)
+ VAR divivisão=NUM
+ 
+ SE n1>0 OU n2>0
+  Fazer a divisão 
+ SENÃO
+  ESCREVA "Por favor,digite outro numero" E não execute o calculo
+ FIM-SE
+  O usuario digitar um numero diferente de zero
+ divisão=n1/n2
+FIM

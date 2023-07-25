@@ -1,0 +1,14 @@
+/* 
+Algoritmo que mostra os multiplos
+de 5 de 0 à 50
+Feito por:Yuri
+Data:21/06/23
+*/
+
+programa MostrarMultiplosDe5
+inicio
+	inteiro:contador;
+	para contador de 0 até 50 passo 5 faca;
+	  escreva(contador);
+	fim_para;
+fim.

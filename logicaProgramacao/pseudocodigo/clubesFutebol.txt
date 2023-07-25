@@ -1,0 +1,14 @@
+INÍCIO
+ VAR c1= CARACTERE
+ LEIA(c1)
+ SE for Cruzeiro
+  ESCREVA "Seu time é o maior do universo"
+ SE for Santos
+  ESCREVA "Seu time é o maior de São Paulo"
+ SE for Grêmio
+  ESCREVA "Seu time é o maior do Rio Grande do Sul"
+ SE for Flamengo
+  ESCREVA "Seu time é o maior do Rio de Janeiro"
+ SENÃO
+  ESCREVA "O time informado não faz parte dos clubes grandes"
+FIM

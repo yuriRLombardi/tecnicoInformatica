@@ -1,0 +1,17 @@
+/*
+Algoritmo que lê o preço da gasolina e valor á pagar e 
+calcula a quantidade possível de gasolina para o tanque
+Data:31/05/23
+Feito por:Yuri
+*/
+início
+Programa CalculoDeRecebimentoDeGasolina
+real:gl,vp,qg
+escreva("Digite o Preço do litro da gasolina:");
+leia(gl);
+escreva("Digite o valor que pagara:");
+leia(vp)
+qg<-vp/gl;
+escreva("a quantidade de gasolina que consiguira colocar no tanque eh:");
+escreva(qg);
+fim.

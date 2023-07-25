@@ -1,0 +1,6 @@
+INÍCIO
+ Trocar a lâmpada
+SE acender 
+ Não trocar a lâmpada
+SENÃO
+ Trocar a lâmpada

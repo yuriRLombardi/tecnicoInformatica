@@ -1,0 +1,13 @@
+Início
+ VAR n1,n2,n3=NUM
+ ESCREVA "Digite os numeros"
+ LEIA(n1,n2,n3)
+ SE n1>n2 E n1>n3
+  ESCREVA "O maior numero é",n1
+ SE n2>n1 E n2>n3
+  ESCREVA "O maior numero é",n2
+ SENÃO
+  ESCREVA "O maior numero é",n3
+ FIM-SE 
+  Ao comparar todos os numeros
+FIM

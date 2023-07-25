@@ -1,0 +1,12 @@
+Início
+ VAR n1=NUM
+ n1=0
+ ENQUANDO n1<21 FAÇA
+  ESCREVA n1
+ n1++
+ SE-ENQUANDO mod(n1/2) E mod(n1/3) E mod(n1/5) tiver resto FAÇA 
+  ESCREVA "São primos:"n1
+ SENÃO FAÇA
+   ESCREVA "São pares:"n1
+FIM-ENQUANDO
+FIM

@@ -1,0 +1,29 @@
+INÍCIO
+ Ir ao mercado
+ Se De carro ENTÃO
+  Estacionamento
+  ENQUANTO Vaga ocupada FAÇA
+   Olhar proxima vaga
+  FIM-ENQUANTO
+ SENÃO
+  Entrada para pedestre
+ FIM-SE  
+
+ Pegar carrinho
+ Ir até sessão
+ Pegar o produto
+ Colocar no carrinho
+ Ir ao caixa
+ 
+ SE No cartão ENTÃO
+  Pegar o cartão
+ SENÃO
+  Contar  as cédulas
+ FIM-SE
+ 
+  Fazer o pagamento
+  Sair do mercado
+ SE de carro
+  Pegar o carro e sair
+ SENÃO
+  Sair pela saída de pedestre

@@ -1,0 +1,7 @@
+Início
+VAR km,h,m,s=NUM
+LEIA m,s
+km=m*3.6
+h=s*3.6
+ESCREVA "Os metros convertidos em quilometros é igual á:" km
+ESCREVA "Os segundos convertidos em horas é igual á:" h

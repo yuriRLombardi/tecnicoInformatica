@@ -1,0 +1,9 @@
+Início
+VAR km,h,min,converçãoEMm,converçãoEMmin,res=NUM
+km=20
+h=1
+min=15
+converçãoEMm=km*1000 
+res=converçãoEMm/min
+ESCREVA "O veículo andou:"res
+

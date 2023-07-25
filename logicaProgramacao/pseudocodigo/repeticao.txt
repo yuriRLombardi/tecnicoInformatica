@@ -1,0 +1,9 @@
+INÍCIO
+ VAR S=CACT
+ 
+ ENQUANDO S!=S FAÇA
+  ESCREVA"Instituto Federal de Horlândia"
+   LEIA S
+ FIM-ENQUANDO
+FIM
+  

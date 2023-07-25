@@ -1,0 +1,14 @@
+th,td{
+    border: 1px solid black;
+}
+th{
+    background-color: coral;
+}
+td{
+    background-color: cyan;
+}
+table{
+    border-collapse: collapse;
+    margin: center;
+}
+

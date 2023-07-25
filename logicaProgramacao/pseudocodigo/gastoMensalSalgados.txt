@@ -1,0 +1,14 @@
+/*algoritmo que calcula gastos mensais em salgados da cantina
+Feito por:Yuri
+Data:24/05/23 */
+programa gastoEmSalgadosNaCantina
+inicio
+inteiro:n1
+real:n2,GastoMensal;
+escreva("Digite o valor do salgado:");
+ler(n1);
+escreva("Digite a quantidade de salgado que comprou no mês:");
+ler(n2);
+GastoMensal<-n1*n2;
+escreva("o gasto de salgados ao mês eh",GastoMensal);
+fim.

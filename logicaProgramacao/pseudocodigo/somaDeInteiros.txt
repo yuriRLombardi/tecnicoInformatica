@@ -1,0 +1,18 @@
+/*algoritmo que soma dois valores inteiros
+Feito por:Yuri
+Data:24/05/23 */
+programa SomaDe2Numeros
+inicio
+inteiro:n1,n2,soma;
+escreva("Digite um valor inteiro:");
+ler(n1);
+escreva("Digite outro valor inteiro:");
+ler(n2);
+soma<-n1+n2;
+escreva("a soma de");
+escreva(n1);
+escreva("mais");
+escreva(n2);
+escreva("eh igual ah");
+escreva(soma);
+fim.

@@ -1,0 +1,14 @@
+/* 
+Algoritmo que mostra os numéros de 20 à 0 em 
+ordem decresente 
+Feito por:Yuri
+Data:21/06/23
+*/
+
+programa MostrarNumDe20A0
+inicio
+	inteiro:contador;
+	para contador de 20 até 0 passo -1 faca;
+	  escreva(contador);
+	fim_para;
+fim.

@@ -1,0 +1,6 @@
+Início
+VAR n1,n2,vm=NUM
+n1=15
+n2=1000
+vm=n2/n1
+ESCREVA "A velociade média desse veículo é:"vm "por m/s"

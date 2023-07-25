@@ -1,0 +1,19 @@
+Início
+VAR cpf,n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,validação1,resvalidação1,validação2,resvalidação2=NUM
+ESCREVA "Digite CPF"
+LEIA n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11
+cpf="n1+n2+n3+n4+n5+n6+n7+n8+n9""-""n10+n11"
+validação1=[(n1*10)+(n2*9)+(n3*8)+(n4*7)+(n5*6)+(n6*5)+(n7*4)+(n8*3)+(n9*2)]*10
+resvalidação1=MOD(validação1/11)
+SE resvalidação1=10
+ CONSIDERE 10=0
+SENÃO
+ Nada
+FIM-SE
+ENQUANDO resvalidação1!=n10 NÃO FAÇA
+ ESCREVA"Invalido"
+ SE resvalidação1=n10 FAÇA
+ ESCREVA"Passou da primeira validação" 
+FIM-SE
+FIM-ENQUANDO
+

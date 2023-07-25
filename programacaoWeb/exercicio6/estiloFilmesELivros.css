@@ -1,0 +1,12 @@
+th,td{
+    border:1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+thead,tfoot{
+    background-color: aquamarine;
+}
+tbody{
+    background-color: rgb(111, 192, 30);
+}

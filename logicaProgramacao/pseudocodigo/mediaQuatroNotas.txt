@@ -1,0 +1,11 @@
+Início
+VAR n1,n2,n3,n4=NUM(LEIA n1,n2,n3,n4)
+n1=5
+n2=7
+n3=9
+n4=3
+ESCREVA "as notas do aluno foi:"n1,n2,n3,n4
+Var soma= n1+n2+n3+n4
+VAR média=soma/4
+ESCREVA "sendo assim a média desse aluno é:" média 
+FIM

@@ -1,0 +1,9 @@
+Início
+VAR n1,n2,n3=NUM(LEIA n1,n2,n3)
+ESCREVA"3x+6=24"
+n1=3
+n2=6
+n3=24
+VAR x=(n3-n2)/n1
+ESCREVA "x é igual a:"x
+FIM

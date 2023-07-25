@@ -1,0 +1,64 @@
+Início
+ VAR p1,p2,p3,p4,p5,resp1,resp2,resp3,resp4,resp5=CARAC
+ ESCREVA p1,p2,p3,p4,p5
+ LEIA resp1,resp2,resp3,resp4,resp5
+ p1="Quem descobriu o brasil?
+  a)Pedro Alves Cabral
+  b)Bolsonario
+  c)Bob esponja
+  d)Pelé "
+ 
+ p2="Qual é o anime do pirata que estica
+  a)Toygo Ghoul
+  b)Chainsaw man
+  c)Dragon ball
+  d)One piece "
+ 
+ p3="Qual o jogo que você mata templarios? 
+  a)GTA
+  b)FREFIRE
+  c)Assasinos Creeds
+  d)Roblox "
+ 
+ p4="Qual a seríe da netflix,que tem o Vecna?" 
+  a)Stranger things
+  b)Os 10 mandamentos
+  c)Meu pai é um caçador de recompensas 
+  d)Nenhuma das anteriores "
+
+ p5="Quem teu aula no dia 30/03/23 de FMC no If de hortolândia do 1°Info?
+  a)Stfani
+  b)Isaias
+  c)Carlos
+  d)Thiago
+ 
+ SE-ENQUANDO resp1!=a 
+  ESCREVA "Errou"
+ SENÃO
+  ESCREVA "Acertou" 
+ FIM-ENQUANDO
+ 
+ SE-ENQUANDO resp2!=d 
+  ESCREVA "Errou"
+ SENÃO 
+  ESCREVA "Acertou" 
+ FIM-ENQUANDO
+ 
+ SE-ENQUANDO resp3!=c
+  ESCREVA "Errou"
+ SENÃO
+  ESCREVA "Acertou"
+ FIM-ENQUANDO
+ 
+ SE-ENQUANDO resp4!=a
+  ESCREVA "Errou"
+ SENÃO
+  ESCREVA "Acertou
+ FIM-ENQUANDO
+  
+ SE-ENQUANDO resp5!=c
+  ESCREVA "Errou"
+ SENÃO
+  ESCREVA "Acertou
+ FIM-ENQUANDO
+ FIM 

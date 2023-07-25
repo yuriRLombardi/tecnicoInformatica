@@ -1,0 +1,15 @@
+/*
+Algoritimo que calcula o salário semanal de um vendedor
+Data:31/05/23
+Feito por:Yuri
+*/
+início
+Programa CalculoDeSalarioSemanal
+real:vv,porcentagem,resultado;
+escreva("Entre com o valor da venda semanal total:");
+leia(vv);
+porcentagem<-(vv*10)/100;
+resultado<-porcentagem+200;
+escreva("O salário semanal eh");
+escreva(resultado);
+fim.

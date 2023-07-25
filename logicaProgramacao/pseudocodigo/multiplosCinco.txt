@@ -1,0 +1,12 @@
+/*
+Algoritmo que calcula os multiplos de 5 de 0 à 20
+Feito por:Yuri
+Data:15/06/23
+*/
+
+programa calcularMultiplosDe5
+	inteiro: contador,multiplos;
+	para contador de 0 à 20 passo 5 faça;
+		multiplos = multiplos+contador;
+		escreva 
+	fim_para;

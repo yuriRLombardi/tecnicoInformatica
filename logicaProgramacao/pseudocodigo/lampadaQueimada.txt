@@ -1,0 +1,33 @@
+Início
+  Trocar a lampâda
+  Verificar se a lampâda está queimada
+  SE a lampâda está queimada ENTÃO
+    Pegar a escada e posicionar embaixo da lampâda 
+	Subir a escada
+  ENQUANDO não chegar até a lampâda
+    Subir mais um degrau
+  FIM-ENQUANDO
+  Girar a lampâda até sair
+  Descer a escada
+  ENQUANDO não chegar ao chão FAÇA  
+     Descer mais um degrau  
+  Pegar uma nova lampâda
+  SE a lampâda for da mesma voltagem que a queimada ENTÃO
+    Pegar a lampâda nova e subir a escada
+  SENÃO
+    Pegar outra lampâda
+  ENQUANDO a lampâda não for da mesma voltagem FAÇA
+   Pegar outra lampâda
+  ENQUANDO não chegar até o top FAÇA
+   Subir mais um degrau
+  FIM-ENQUANDO
+  Girar a lampâda até ficar firme 
+  Descer a escada
+  ENQUANDO não chegar ao chão FAÇA 
+   Descer mais um degrau
+  FIM-ENQUANDO
+  Guardar a escada
+  Jogar a lampâda queimada no lixo
+ FIM
+  
+ 

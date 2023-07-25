@@ -1,0 +1,7 @@
+Início
+VAR n1=NUM(LEIA n1)
+n1=5
+ESCREVA "um quadrado tem uma medida nos lados de:" n1
+VAR área= n1^2
+ESCREVA "a área então é:" área
+FIM
