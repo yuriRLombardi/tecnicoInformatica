@@ -1,0 +1,9 @@
+body{
+    border: 5px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: burlywood;
+}
+h2,h1{color:coral;}
+q,blockquote{color: darkred;}

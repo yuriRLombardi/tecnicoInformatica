@@ -1,0 +1,14 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px double gray;
+    font-family: Verdana, Geneva, sans-serif;
+    border-top-color: #3C6;
+    border-bottom-color: #3C6;
+    }
+    p { color:brown; font-family:verdana; }
+    p.framboesa { color:blue; }
+    h1,h2 { color:gray; }
+    h1 { border-bottom:1px solid black; }
+    p.chaverde { color:green; }
+    p.Happy{color:blueviolet}

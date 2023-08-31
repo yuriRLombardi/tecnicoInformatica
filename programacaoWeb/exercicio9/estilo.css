@@ -1,0 +1,28 @@
+body { 
+    background-color:green;
+    text-align: center;
+    color: white; 
+}
+.menu { 
+    margin-top: 1cm;
+    margin-bottom: 1cm; 
+    }
+.menu a{ 
+    padding-left: 22px;
+    padding-right: 22px;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: brown;
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conteudo { 
+    margin-left:4cm;
+    margin-right:4cm;
+    margin-top:1cm;
+    border: solid 1px greenyellow;
+    background-color: #666; 
+    border-radius: 5px;
+}
