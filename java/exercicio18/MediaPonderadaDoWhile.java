@@ -25,7 +25,7 @@ public class MediaPonderadaDoWhile{
 		System.out.println("-----------------------------------------------------------------------------");
 		System.out.println("");
 		}
-		while(opcao != 0);
+		while(opcao == 0);
 		media = soma/contador;
 		System.out.println("A media eh igual ah " + media);
 		System.out.println("Fim do programa");

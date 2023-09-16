@@ -1,0 +1,84 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    margin: 25px;
+    background-image: url(imagens/fundoDePagina.png);
+    background-size:cover;
+    font-family: serif
+}
+
+.menu{
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    top: 0;
+    left: 10em;
+    width: 100%;
+    text-align:center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    font-size: 1.5em;
+    margin: 2em;
+}
+
+nav a {
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(236, 145, 236);
+    transition: color 0.3s;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: #F5F5DC;
+    font-weight: bold;
+    background-color: gray;
+}
+
+.conteudo{
+    border: 1px solid black;
+    color: rgb(236, 145, 236);
+    background-color: blueviolet;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 50em;
+    padding: 1.25em;
+    text-align: center;
+}
+.conteudo1{
+    border: 1px solid black;
+    color: rgb(236, 145, 236);
+    background-color: blueviolet;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 50em;
+    padding: 1.25em;
+    text-align: center;
+}
+td,th{
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+footer{
+    color: rgb(236, 145, 236);
+    font-size: 25px;
+}

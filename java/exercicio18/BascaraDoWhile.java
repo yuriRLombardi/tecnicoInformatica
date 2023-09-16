@@ -20,14 +20,14 @@ public class BascaraDoWhile{
 		System.out.println("Digite o coeficiente C da equacao");
 		double c = tec.nextDouble();
 		double delta = Math.pow(b,2)-(4*a*c);
-		double x1 = ((b * -1) + Math.sqrt(delta)) / (2*a);
-		double x2 = ((b * -1) - Math.sqrt(delta)) / (2*a);
+		double x1 = ((b * -1) + Math.sqrt(delta) )/ (2*a);
+		double x2 = ((b * -1) - Math.sqrt(delta) )/ (2*a);
 		System.out.println("As raizes da equacao sao "+ x1 + " e " + x2);
 		System.out.println("Se quiser continur,digite zero,caso contrario,digite qualquer numero");
 		opcao = tec.nextInt();
 		System.out.println("--------------------------------------------------------------------");
 		}
-		while(opcao != 0);
+		while(opcao == 0);
 		System.out.println("Fim do programa");
 		tec.close();
 	}
