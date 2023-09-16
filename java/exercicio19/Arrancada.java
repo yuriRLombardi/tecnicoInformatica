@@ -21,7 +21,7 @@ public class Arrancada {
 		double resA = 402/calculoA;
 		System.out.println("A aceleracao do veiculo eh "+resA+" em metros por segundos quadrados");
 		double calculoVF = 0 + resA * tempo;
-		double resVF = calculoVF/3.6;
+		double resVF = calculoVF*3.6;
 		System.out.println("A velocidade do veiculo eh "+resVF+" em kilometros por hora");
 		tec.close();
 	}
