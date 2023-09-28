@@ -1,0 +1,124 @@
+
+     body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+     ul{
+        list-style: none;
+    }
+
+   
+
+
+
+
+     
+.conteudo{
+    color:rgb(109, 104, 36);
+    display: grid;
+    grid-template-columns: minmax(2,49%);
+    margin-top: 10px;
+}
+
+footer{
+    background-color:#333;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15%;
+}
+.conteudo1{
+    text-align: left;
+    color: rgb(109, 104, 36);
+    font-size: 20px;
+    margin-top:20px;
+}
+
+.posts .posts-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    background-position: center center;
+  }
+  .posts.round .round-container img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  figure img {
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #333;
+  }
+  
+div.k {
+    width: 40%;
+    float:left;
+     font-size: 3vw;
+    text-align: left;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    
+}
+.kv{
+    border-radius: 50px;
+}
+
+div.y{
+    width: 40%;
+    float:right;
+    margin-right: 0vw;
+    font-size: 3vw;
+    text-align: right;
+    padding: 5vw 0vw 5vw 0vw;
+    min-width:40vw;
+    float:right;
+}
+.clean{clear:both;}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin:1%;
+  }
+
+  .container {
+    border: 5px double rgb(247, 243, 243);
+    background-color: rgb(239, 247, 242, 0.85);
+    align-items: flex-end;
+	width:500px;
+	text-align:center;
+	padding:2%;
+	box-shadow:10px 10px 3px rgba(132, 241, 43, 0.432);
+
+}
