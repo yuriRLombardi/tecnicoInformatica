@@ -3,16 +3,9 @@
         margin: 0;
         padding: 0;
     }
-
      ul{
         list-style: none;
     }
-
-   
-
-
-
-
      
 .conteudo{
     color:rgb(109, 104, 36);
@@ -29,7 +22,6 @@ footer{
     margin-top: 15%;
 }
 .conteudo1{
-    text-align: left;
     color: rgb(109, 104, 36);
     font-size: 20px;
     margin-top:20px;
@@ -56,7 +48,7 @@ footer{
     height: 12rem;
   }
 
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -64,11 +56,11 @@ footer{
     background-color: #333;
   }
   
-  li {
+  nav li {
     float: left;
   }
   
-  li a {
+  nav a {
     display: block;
     color: white;
     text-align: center;
@@ -76,8 +68,8 @@ footer{
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color: #333;
+  nav li a:hover {
+    background-color: rgba(132, 241, 43, 0.432);
   }
   
 div.k {
