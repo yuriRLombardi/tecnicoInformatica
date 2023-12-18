@@ -1,0 +1,103 @@
+@media screen and (max-width: 850px) {
+  nav ul li {
+    float: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+	background: rgb(58,180,95);
+  background: linear-gradient(90deg, rgba(58,180,95,1) 0%, rgba(3,73,11,1) 73%, rgb(42, 48, 44) 90%);
+}
+    
+.conteudo{
+    margin-top: 10px;
+}
+
+footer{
+    background-color:#333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 15%;
+}
+.conteudo1{
+    color: rgb(109, 104, 36);
+    font-size: 20px;
+    margin-top:20px;
+}
+
+.posts .posts-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    background-position: center center;
+  }
+  .posts.round .round-container img {
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  figure img {
+    border-radius: 100%;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: rgba(132, 241, 43, 0.432);
+    transition: 0.5s;
+  }
+  
+
+
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .container {
+    margin: 0 auto;
+    border: 5px double rgb(247, 243, 243);
+    background-color: rgb(239, 247, 242, 0.85);
+    align-items: column;
+	width:500px;
+	text-align:center;
+	padding:2%;
+	box-shadow:10px 10px 3px rgba(132, 241, 43, 0.432);
+}
+
+
+ table, th, td{
+    border: 1px solid rgb(48, 1, 1);
+    border-collapse:collapse; 
+    padding: 5px 2px;
+}
+tr:nth-child(even) {
+  background-color: white;
+  }

@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Início</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="home.css">
+  <meta http-equiv="Content-Type" content="text/html;
+charset=utf-8" />
+  <script language="javascript" type="text/javascript" src="mascaras.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Login</a></li>
+      <li><a href="quem somos2.html">Nossa Equipe</a></li>
+      <li><a href="Tabela.html">Tabela</a></li>
+      <li><a href="novidade.html">Jogo</a></li>
+      <li><a href="Fut.html">História do Rei</a></li>
+    </ul>
+  </nav>
+
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+  <div class="box">
+    <div class="container">
+      <h2>Fut Brasil</h2>
+      <p><br>Para fazer parte da nosa comunidade nos passe seus dados<br>
+        já aproveite e bos avalie<br>
+      </p>
+
+      <div class="">
+        <img src="imagens\Logo.jpg" alt="" height="200" width="200" ;>
+      </div>
+    </div>
+
+
+
+    <div class="conteudo">
+      <h3>Registre-se!!!</h3>
+      <form name="form1" method="post" action="">
+        <br>
+        <br> <br>
+        <label for="edit_cpf">CPF:</label>
+        <input name="edit_cpf" type="text" id="edit_cpf" maxlength="14" onBlur="ValidaCPF(form1.edit_cpf)"
+          onKeyPress="MascaraCPF(form1.edit_cpf)" />
+
+        <p>
+          <label for="edit_nome">Nome</label>
+          <input name="edit_nome" type="text" id="edit_nome" maxlength="47" />
+        </p>
+        <p>
+          <label for="edit_nascimento">Data de Nascimento:</label>
+          <input name="edit_nascimento" type="date" id="edit_nascimento" maxlength="10"
+            onBlur="ValidaData(form1.edit_nascimento)" onKeyPress="MascaraData(form1.edit_nascimento)" />
+        </p>
+        <p>
+          <label for="edit_endereco">Endereco:</label>
+          <input name="edit_endereco" type="text" id="edit_endereco" value="" maxlength="45" />
+
+        </p>
+        <p>
+          <label for="edit_cep">CEP........:</label>
+          <input name="edit_cep" type="text" id="edit_cep" maxlength="10" onBlur="ValidaCep(form1.edit_cep)"
+            onKeyPress="MascaraCep(form1.edit_cep)" />
+        </p>
+        <p>
+          <label for="edit_bairro">Bairro</label>
+          <input name="edit_bairro" type="text" id="edit_bairro" maxlength="28" />
+        </p>
+        <p>
+          <label for="edit_cidade">Cidade....:</label>
+          <input name="edit_cidade" type="text" id="edit_cidade" maxlength="35" />
+        </p>
+        <p>
+          <label for="list_estado">Estado</label>
+          <select name="list_estado" id="list_estado">
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>BA</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+          </select><br>
+        </p> 
+
+        <p class="BtnForm"> <input type="submit" name="btn_envia" id="btn_envia" value="Cadastrar" />
+          <input name="limpar" type="reset" id="btn_limpar" value="Limpar" />
+        </p>
+      </form>
+    </div>
+    <div class="conteudo">
+      <form id="form2" action="" method="POST">
+        <p><b>O que você achou do site?</b> <br>
+          <input type="radio" name="avaliacao" style="width: 20px !important;" value="muitobom" checked>Muito Bom
+          <input type="radio" name="avaliacao"  style="width: 20px !important;" value="bom">Bom
+          <input type="radio" name="avaliacao"  style="width: 20px !important;" value="regular">Regular
+          <input type="radio" name="avaliacao"  style="width: 20px !important;" value="pessimo">Péssimo
+        </p>
+        <p><b>Diga-nos como entrar em contato com
+            você:</b> <br>
+          Nome <input type="text" maxlength="256" name="nome"> <br>
+          Email <input type="text" maxlength="256" name="email"> <br>
+          Fone <input type="text" maxlength="15" name="fone" onkeyup="handlePhone(event)">
+        </p>
+        <p>
+          <input style="width: 20px !important;" type="checkbox" name="novidades" value="sim">
+          Quero receber novidades do site por e-mail <br>
+        </p> 
+        <p class="BtnForm"><input type="submit" value="Enviar Dados">
+          <input type="reset" value="Limpar Formulário">
+        </p>
+      </form>
+    </div>
+    <script>
+      const handlePhone = (event) => {
+        let input = event.target
+        input.value = phoneMask(input.value)
+      }
+
+      const phoneMask = (value) => {
+        if (!value) return ""
+        value = value.replace(/\D/g, '')
+        value = value.replace(/(\d{2})(\d)/, "($1) $2")
+        value = value.replace(/(\d)(\d{4})$/, "$1-$2")
+        return value
+      }
+    </script>
+
+
+</body>
+
+</html>
