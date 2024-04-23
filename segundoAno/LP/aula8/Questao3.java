@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-public class Questao3 {
+public class questao3 {
 
     public static double cauculoQuadrado(double n1){ 
        Scanner sc=new Scanner(System.in);
        
-        do{
+       while(n1<0){
 
         System.out.println("Digite um valor positivo =(");
         n1=sc.nextDouble();
-       }while(n1<0);
+       }
         double res=n1*n1;
         sc.close();
         return res;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
-/*Feito por: Yuri Rodrigues Lombardi ht3023664 e Kevin dos Santos Reis ht3023397 */
-public class Conta {
+/*Feito por: Yuri Rodrigues Lombardi ht3023664 e Kevin dos Santos Reis  */
+public class conta {
     public static void main(String[] args) {
         double saldo = 0;
         int opcaousuario = 0;

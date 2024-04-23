@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DesafioLoja {
+public class desafioLoja {
 
     public static void main(String[] args) {
         float compras[] = new float[10];
