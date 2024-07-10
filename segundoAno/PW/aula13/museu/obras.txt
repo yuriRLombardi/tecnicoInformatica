@@ -1,0 +1,11 @@
+
+<div>
+<h1>Obra Noite Estrelada</h1>
+Tipo da Obra: Pintura
+Ano de Criação: 1821
+Foto: 
+<img src = 'uploads/noite-estrelada-400x320.jpg' width = '250' height = '250'>
+Faz Parte da coleção?: Não
+Observações:  ...
+</div>
+<div><h1>Obra Pensador</h1>Tipo da Obra: PinturaAno de Criação: 1899Foto: <img src = 'uploads/download.jpg' width = '250' height = '250'>Faz Parte da coleção?: SimObservações:  Muito pensativo</div><div><h1>Obra Relógio Antigo</h1>Tipo da Obra: RelogioAno de Criação: 1000Foto: <img src = 'uploads/images.jpg' width = '250' height = '250'>Faz Parte da coleção?: SimObservações:  Ué mas, viz esse registro na hora, opa, esse relógio está anos atrasados</div>
