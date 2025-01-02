@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--
+    HTML para pegar dados com a localização da IF campus Hortolândia
+    Feito por: Kevin
+    Data: 11/07/24
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de gastos financeiros</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        fieldset{
+            border-radius: 10px;
+        }
+        legend{
+            font: 15pt bold;
+        }
+    </style>
+</head>
+<body>
+    <header>Calculadora de Gastos do 1º Semestre</header>
+    <section>
+        <div>
+            <form method="POST" action="grafico.php">
+                <fieldset>
+                    <legend>Informe os gastos dos meses abaixo:</legend>
+                    <label for='jan' >Gasto do mês de Janeiro:    <input type = 'number' name = 'jan' id = 'jan' required min="0" max="1000"></label><br>
+                    <label for='fev' >Gasto do mês de Fevereiro:  <input type = 'number' name = 'fev' id = 'fev' required min="0" max="1000"></label><br>
+                    <label for='mar' >Gasto do mês de Março:      <input type = 'number' name = 'mar' id = 'mar' required min="0" max="1000"></label><br>
+                    <label for='abr' >Gasto do mês de Abril:      <input type = 'number' name = 'abr' id = 'abr' required min="0" max="1000"></label><br>
+                    <label for='mai' >Gasto do mês de Maio:       <input type = 'number' name = 'mai' id = 'mai' required min="0" max="1000"></label><br>
+                    <label for='jun' >Gasto do mês de Junho:      <input type = 'number' name = 'jun' id = 'jun' required min="0" max="1000"></label><br>
+                </fieldset>
+                <input type="submit" value = 'Gerar grafico'>
+                <input type="reset" value = 'Limpar'>
+                </form>
+        </div>  
+        <div>
+            <h1>Localização do campos do IF de Hortolândia</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.6906511878046!2d-47.233738523779685!3d-22.850931835879003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8bc16c66f0bed%3A0x1aee5c111efc6196!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%2C%20Campus%20Hortol%C3%A2ndia!5e0!3m2!1spt-PT!2sbr!4v1720725340316!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>
+</html>

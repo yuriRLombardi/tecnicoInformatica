@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Livros</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <legend style="font: bold;font-size: 20pt;">Cadastro de Livro</legend>
+        <fieldset>
+            <p>Título<input type="text" name="titu" required></p>
+            <p>Editora<input type="text" name="edit" required></p>
+            <p>Edição<input type="number" name="edic" required></p>
+            <p>Ano de Publição<input type="text" name="anop" maxlength="4" required></p>
+            <p>Autores:<input type="text" name="auto" required></p>
+            <p>Assunto:<input type="text" name="assu" required></p>
+        </fieldset>
+        <input type="submit" value="Enviar Dados">
+    </form>
+</body>
+</html>
