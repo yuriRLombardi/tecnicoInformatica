@@ -1,8 +1,7 @@
 # tecnicoInformatica
 Curso Técnico de Informática realizado no Instituto Federal - Campus Hortolândia/SP 
-Bom agora iniciaremos o segundo ano com algumas modificações no repositório "tecnicoInfórmatica":
+<p>Mudando mais uma vez p README,agora estou na reta final,no TERCEIRO ANO, e as matérias agora são:</p>
 <ul>
-<li>Agora as atividades feitas nas aulas serão divididas por ano</li>
-<li>Nova materia do técnico: MD(Modelagem de Dados)</li>
-<li>Nova linguagem em aprendizado: PHP<li>
+<li>LP - Usando o java para aplicações Web</li>
+<li>Programação de Dispositiveis Móveis(PDM)- Para o desenvolvimento de aplicativos está sendo usado a linguagem Kotlin</li>
 </ul>
