@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<h1>Formulário</h1>
+		<form action="estudanteResposta.jsp">
+			<label for="nomeId">Nome: </label>
+			<input type="text" id="nomeId" name="nome"><br>
+			
+			<label for="senha">Senha:</label>
+			<input type="password" id="senha" name="usenha"><br>	
+			
+			<label for="pagina">Adicione sua página web:</label>
+			<input type="url" id="pagina" name="homepage"><br>
+			
+			<label for="email">Digite seu e-mail:</label>
+			<input type="email" id="email" name="email"><br>
+			
+			<label for="celular">Celular:</label>
+			<input type="tel" id="celular" name="cel"><br>
+			
+			<label for="dataId">Data de nascimento:</label>
+			<input type="date" id="dataId" name="data_nasc"><br>
+			
+			<label for="numero">Quantidade:</label>
+			<input type="number" id="numero" name="quantidade" min="1" max="5"><br>
+			
+			<label for="vol">Volume (0 a 50):</label>
+			<input type="range" id="vol" name="vol" min="0" max="50" step="5"><br>
+			
+			<label for="carros">Selecione um carro:</label>
+			<select id="carros" name="carros">
+				<option value="fiat">Fiat</option>
+				<option value="chevrolet">Chevrolet</option>
+				<option value="citroen">Citroen</option>
+				<option value="volkswagen">Volksvagen</option>
+			</select><br>
+			<input type="radio" id="html" name="linguagem" value="HTML">
+			<label for="html">HTML</label><br>
+			<input type="radio" id="css" name="linguagem" value="CSS">
+			<label for="css">CSS</label><br>
+			<input type="radio" id="javascript" name="linguagem" 
+			value="JavaScript">
+			<label for="javascript">Java Script</label><br>
+			
+			<input type="checkbox" id="idioma1" name="idioma" value="português">
+			<label for="idioma1">Português</label><br>
+			<input type="checkbox" id="idioma2" name="idioma" value="inglês">
+			<label for="idioma2">Inglês</label><br> 
+			<input type="checkbox" id="idioma3" name="idioma" value="espanhol">
+			<label for="idioma3">Espanhol</label><br> 
+							
+			<input type="submit" value="Enviar">
+		</form>
+	</body>
+</html>
