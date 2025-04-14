@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Cafeteria</title>
+	</head>
+	<body>
+		
+		<form action="Produto.jsp">
+			
+			<label for="nomeId">Nome:</label>
+			<input type="text" id="nomeId" name="nome"><br><br>
+				
+			<label for="desc">Descrição:</label><br><br>
+			<textarea id = "desc" name="desc"></textarea><br><br>
+				
+			<label for="preco">Preço:</label>
+			<input type="number" id="preco" step="0.01" min="0" name="preco"><br><br>
+				
+			<label for="dataId">Data de Validade:</label>
+			<input type="date" id="dataId" name="dataVal"><br><br>
+		
+			<input type="checkbox" id="ingrediente1" name="ingrediente"
+			value="Amendoim">
+			<label for="ingrediente1">Amendoim</label><br>
+			
+			<input type="checkbox" id="ingrediente2" name="ingrediente"
+			value="Gordura Saturada">
+			<label for="ingrediente2">Gordura Saturada</label><br>
+			
+			<input type="checkbox" id="ingrediente3" name="ingrediente"
+			value="Derivados de Leite">
+			<label for="ingrediente3">Derivados de Leite</label><br>
+			
+			<input type="checkbox" id="ingrediente5" name="ingrediente"
+			value="Glúten">
+			<label for="ingrediente4">Glúten</label><br>	
+			
+			<input type="checkbox" id="ingrediente6" name="ingrediente"
+			value="Açúcar">
+			<label for="ingrediente5">Açúcar</label><br><br>
+		
+			<label for="taxa">Taxa De Entrega:</label>
+			<input type="number" id="taxa" step="0.01" min="0" max="100" name="taxa"><br><br>
+		
+		
+			<input type="submit" value="Enviar">
+		
+		</form>
+			
+				
+	</body>
+</html>
