@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Dados Pessoais - Formulário</h1>
+		<form action="Atv2.jsp">
+			<label for = 'nome'>Nome			</label>
+			<input	type ='text' name='nome' id = 'nome' ><br>
+			
+			<label for = 'ende'>Endereço			</label>
+			<input	type ='text' name='ende' id = 'ende' ><br>
+			
+			<label for = 'tele'>Telefone			</label>
+			<input	type ="tel" name='tele' id = 'tele' ><br>
+			
+			<label for = 'idade'>Idade			</label>
+			<input	type ="number" name='idade' id = 'idade' ><br><br>
+			
+			<label for = "escola">Escolaridade:</label>
+			<select  id="escola" name="escola">
+				<option value="Ensino Fundamental">Ensino Fundamental</option>
+				<option value="Ensino Médio">Ensino Médio</option>
+				<option value="Superior">Superior</option>
+				<option value="Pós-graduação">Pós-graduação</option>
+			</select><br><br>
+			
+			
+			<label>Area do conhecimento:		</label><br>
+			<input type = 'radio' name = 'conhecimento' id= 'humanas' value = 'Humanas'><label for = 'humanas'>	Humanas</label>
+			<input type = 'radio' name = 'conhecimento' id= 'artes' value = 'Arte'><label for = 'artes'>	Artes</label>
+			<input type = 'radio' name = 'conhecimento' id= 'saude' value = 'Saude'><label for = 'saude'>Saúde	</label>
+			<input type = 'radio' name = 'conhecimento' id= 'exatas' value = 'Exatas'><label for = 'exatas'> Exatas	</label><br><br>
+			
+			<label>Experiências Profissionais</label><br>
+			<input type="checkbox" name="exper" value="Analista" id="analista"><label for="analista">Analista</label>
+			<input type="checkbox" name="exper" value="Líder de Equipe" id = "lider"><label for="lider">Líder da Equipe</label>
+			<input type="checkbox" name="exper" value="Gerente" id="gerente"><label for="gerente">Gerente</label>
+			<input type="checkbox" name="exper" value="Empreendetor"><label for="empreendetor">Empreendetor</label><br><br>
+			
+			<input type = 'submit' value = 'Enviar'>	
+			
+				
+		</form>
+</body>
+</html>
