@@ -1,0 +1,30 @@
+package controller;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import model.Converter;
+
+import java.io.IOException;
+
+
+@WebServlet("/Conversor")
+public class Conversor extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		float fahrenheit = Float.parseFloat(request.getParameter("grau")) ; 
+		Converter converter = new Converter();
+		
+		float celcius = converter.converterGraus(fahrenheit);
+		
+		request.setAttribute("celcius", celcius);
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/exibirCelcius.jsp");
+		dispatcher.forward(request, response);
+	}
+
+
+
+}

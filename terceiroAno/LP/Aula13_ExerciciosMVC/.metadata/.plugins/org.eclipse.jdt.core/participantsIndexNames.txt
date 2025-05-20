@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+D:\Users\ht3023664\Documents\ExerciciosMVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3995593090.index
+\Exercicio2\src\main\java
+D:\Users\ht3023664\Documents\ExerciciosMVC\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1770070721.index
+\Exercicio3\src\main\java

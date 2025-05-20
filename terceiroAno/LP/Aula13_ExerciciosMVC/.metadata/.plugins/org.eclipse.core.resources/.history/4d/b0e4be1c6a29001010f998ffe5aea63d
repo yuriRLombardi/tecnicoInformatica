@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Conversor</title>
+</head>
+	<body>
+		<form action = "Conversor"  method = "GET">
+			<label>
+			Digite uma temperatura em  Fahrenheit<input type = "number" name = "grau" id = "grauID" step="0.01"> °F
+			</label><br>
+			<input type = "submit" value = "Enviar">
+		
+		
+		</form>
+	</body>
+</html>
