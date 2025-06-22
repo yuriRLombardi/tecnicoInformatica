@@ -1,0 +1,8 @@
+<context>
+<Resource name="bancoCafeteria"
+auth="Container" type="javax.sql.DataSource"
+username="cafeteria" password="cafe"
+driverClassName="com.mysql.cj.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/cafeteria"
+/>
+</context>

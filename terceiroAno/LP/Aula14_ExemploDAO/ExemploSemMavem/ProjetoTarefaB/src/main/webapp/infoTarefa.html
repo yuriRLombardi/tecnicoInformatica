@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Informações Tarefas</title>
+</head>
+	<body>
+		<h3>Informações da Tarefa</h3>
+		<form action="TarefaController" method="post">
+			<label for="descrisaoId">Descrição</label>
+			<input type="text" id="descricaoID" name="descrisao"><br><br>
+			
+			<label for="prioridadeId">Prioridade</label>
+			<input type="range" id="prioridadeID" name="prioridade" min="1" max="5"><br><br>
+			
+			<input type="submit" value="Cadastrar" name="operacao">
+		</form>
+	</body>
+</html>
