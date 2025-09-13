@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d9d9d9;
+}
+
+  nav a:hover,
+  nav a.ativo {
+  color: #ffcc80;
+}
+
+
+.topo {
+  display: flex;
+  align-items: center;
+  background-color: #777777;
+  padding: 0 40px;
+  height: 5.5vw;
+}
+
+.logo {
+  height: 5.5vw;
+}
+
+.topo nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.topo nav {
+  margin-left: 60vw;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.lado-esquerdo, .lado-direito {
+  flex: 1;
+  text-align: center;
+}
+
+.lado-esquerdo {
+  background-color: #d9d9d9;
+  padding: 0;
+}
+
+.xicara {
+  height: 100%;
+  width: auto;
+}
+
+.foto-cafe {
+  width: 50vw;
+  height: 45vw;
+  padding: 0;
+  object-fit: cover;
+}
+
+.pagina {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.esquerda{
+	margin-left: 20px;
+	padding: 0px;
+	color: white;
+	font-size: 1.5em;
+}

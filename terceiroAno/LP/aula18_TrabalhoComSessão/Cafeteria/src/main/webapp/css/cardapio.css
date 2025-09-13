@@ -1,0 +1,216 @@
+@charset "UTF-8";
+  /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f0e6;
+  color: #4e342e;
+}
+
+header.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #777777;
+  padding: 0 40px;
+  height: 5.5vw;
+  margin-bottom: 7vw;
+}
+
+.logo {
+  height: 5.5vw;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
+main.pagina {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: #f9f6f1;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.pagina {
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  color: #3b1f1f;
+  margin-bottom: 40px;
+}
+
+.cardapio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.item {
+  background-color: #fff1dd;
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item h2 {
+  font-size: 1.1em;
+  color: #3b1f1f;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.icons a {
+  color: #3b1f1f;
+  margin-left: 10px;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.descricao {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #444;
+  white-space: normal;
+  max-height: none;
+}
+
+.preco {
+  font-weight: bold;
+  color: #b22222;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.botoes button {
+  background-color: #3b1f1f;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.botoes button:hover {
+  background-color: #5c2c2c;
+}
+
+.info-extra {
+  margin-top: 10px;
+  background-color: #fdebd0;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.85em;
+  color: #333;
+}
+.ds{
+	width: 200px;
+}
+
+
+/*
+.cardapio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.item {
+  background-color: #fff3e0;
+  padding: 20px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.item .descricao {
+  font-size: 0.95rem;
+  color: #5d4037;
+  width: 4px
+}
+
+.item .preco {
+  display: block;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #bf360c;
+  font-weight: bold;
+}
+.item .right{
+	display: block;
+	margin-left: 10px;
+	float: right;
+}
+footer.rodape {
+  background-color: #4e342e;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+button{
+	display: block;
+	position: relative;
+	float: right;
+	margin-left: 10px;
+	padding: 5px;
+	background-color: #4e342e;
+	color: #fff;
+}
+*/
+

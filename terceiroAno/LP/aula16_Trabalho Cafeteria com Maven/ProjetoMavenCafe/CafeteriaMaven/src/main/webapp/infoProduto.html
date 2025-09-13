@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cafeteria - Cadastro de Produto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">CAFETERIA</div>
+</header>
+
+<main class="main">
+  <form action="CafeteriaController" method="post">
+    <label for="nomeId">Nome:</label>
+    <input type="text" id="nomeId" name="nome" required="required"><br><br> 
+      
+    <label for="desc">Descrição:</label><br> 
+    <textarea id="desc" name="desc"></textarea><br><br> 
+      
+    <label for="preco">Preço:</label>
+    <input type="number" id="preco" step="0.01" min="0" name="preco" required="required"><br><br> 
+      
+    <label for="dataId">Data de Validade:</label>
+    <input type="date" id="dataId" name="dataVal" required="required"><br><br> 
+    
+    <p>Quais ingredientes "alérgicos" tem seu produto?</p> 
+    <input type="checkbox" name="ingrediente" value="Amendoim"> Amendoim<br> 
+    <input type="checkbox" name="ingrediente" value="Gordura Saturada"> Gordura Saturada<br> 
+    <input type="checkbox" name="ingrediente" value="Derivados de Leite"> Derivados de Leite<br> 
+    <input type="checkbox" name="ingrediente" value="Glúten"> Glúten<br> 
+    <input type="checkbox" name="ingrediente" value="Áçucar"> Açúcar<br><br> 
+    
+    <label for="taxa">Taxa De Entrega (%):</label>
+    <input type="number" id="taxa" step="0.01" min="0" max="100" name="taxa" required="required"><br><br> 
+    
+    <input type="submit" value="Cadastrar" name = "operacao"> 
+    <button><a href="index.html">Voltar a página principal</a></button>
+  </form>
+</main>
+
+</body>
+</html>

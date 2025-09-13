@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eeeeee;
+  color: #3b2b2b;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6c6c6c;
+  padding: 10px 40px;
+}
+
+.logo img {
+  height: 4px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.imagem-cafe {
+  width: 50%;
+}
+
+.imagem-cafe img {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.branding {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.branding .xicarinha {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.branding h1 {
+  font-size: 48px;
+  font-family: 'Georgia', serif;
+  color: #4b1e0a;
+}
+
+.branding p {
+  font-size: 18px;
+  color: #a1563f;
+  margin-top: 10px;
+}
