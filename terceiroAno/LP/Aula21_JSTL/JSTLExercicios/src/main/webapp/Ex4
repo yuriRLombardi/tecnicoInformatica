@@ -1,0 +1,15 @@
+Compare os arquivos JSP escritos nos exercícios 2 e 3 e responda:
+
+a.Quais as principais diferenças entre os arquivos?
+
+R: As principais diferencias entre os dois exercícios estão nos arquivos "respostaFilme.jsp". No exercício 2
+para entender o que está acontecendo, precisa de um certo conhecimento em programação para entender o que está
+acontecendo na exibição, já no exercício 3 você não precisa de conhecimento em programação, bastando apenas conhecer
+as tag forEach e o uso do Expression Language, tornando a parte de exibição um pouco mais simplifica comparado ao
+outro exercício.
+
+b.Quais as vantagens de se utilizar JSTL Core?
+
+R: 
+- Não precisa saber programação para entender a parte de exibição, o que ajuda os designers ajustar a parte visual
+- Melhor visualização no código com o uso das tags

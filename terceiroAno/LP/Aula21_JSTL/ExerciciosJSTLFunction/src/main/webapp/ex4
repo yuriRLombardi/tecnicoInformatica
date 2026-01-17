@@ -1,0 +1,11 @@
+O que será exibido na página após a execução dos códigos a seguir?
+
+<c:set var="filmes" value="A Netflix já anunciou alguns filmes originais para o Natal
+de 2025"/>
+
+a. ${fn:substringAfter(filmes, "anunciou")}
+	R: Vai exibir a subtring "alguns filmes originais para o Natal de 2025"
+b. ${fn:substringBefore(filmes, "de")}
+	R: Vai exibir a substring "A Netflix já anunciou alguns filmes originais para o Natal"
+c. ${fn:replace(filmes, "Natal", "final de ano")}
+	R: Vai exibir "A Netflix já anunciou alguns filmes originais para o final do ano de 2025"
